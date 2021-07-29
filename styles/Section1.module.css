@@ -1,0 +1,61 @@
+.slide1{
+    background-image: url(../public/images/section1/bg1.jpg);
+    background-repeat: no-repeat;
+}
+
+.slide2{
+    background-image: url(../public/images/section1/bg2.jpg);
+}
+
+.slide1head{
+    position: relative;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.slide1text{
+    position: relative;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.button{
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    position: relative;
+    width: 170px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #4b1ece;
+}
+.button:hover{
+    background-color: white;
+    color: #4b1ece;
+    transition: all .5s ease-in-out;
+}
+
+@media screen  and (max-width: 1000px) {
+    .hidebox{
+        display: none;
+    }
+    .slide1head{
+        font-size: 40px;
+    }
+    .slide1text{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
