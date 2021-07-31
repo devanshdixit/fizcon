@@ -1,0 +1,151 @@
+.sections {
+  padding: 150px 0 60px;
+  padding-bottom: 150px;
+  overflow: hidden;
+}
+
+.h1s {
+  font-size: 40px;
+  line-height: 1.2em;
+  color: #12114a;
+  font-weight: 700;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.eventtab1 {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding-left: 20px;
+  box-shadow: 0 7px 24px rgb(50 50 182 / 25%);
+  padding-top: 12px;
+}
+
+.eventtab1:hover {
+  background-color: #4b1ece;
+  color: white;
+  height: 55px;
+  padding-left: 24px;
+  width: 55px;
+  transition: all 0.5s ease;
+}
+.listtabs {
+  width: 300px;
+}
+
+.innercolumn {
+  padding-top: 100px;
+}
+.day {
+  display: block;
+  font-size: 35px;
+  line-height: 1.2em;
+  color: #12114a;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.date {
+  font-size: 22px;
+  line-height: 1.2em;
+  color: #f20487;
+  font-weight: 500;
+}
+.text {
+  display: block;
+  font-size: 15px;
+  line-height: 28px;
+  margin-top: 22px;
+  color: #707070;
+  font-weight: 400;
+}
+.linkbox {
+  margin-top: 50px;
+}
+.linkbox a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+  color: #12114a;
+  font-weight: 500;
+}
+.linkbox a:hover {
+  color: #f20487;
+}
+.innerbox {
+  padding: 0 65px;
+  margin-bottom: 90px;
+}
+.thumb {
+  margin-bottom: 45px;
+  min-height: 90px;
+}
+.thumb span {
+  font-size: 15px;
+  line-height: 25px;
+  color: #12114a;
+  font-weight: 500;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 300ms ease;
+}
+.thumb:hover span {
+  opacity: 1;
+  visibility: visible;
+  margin-left: 25px;
+}
+.thumb:hover img {
+  filter: drop-shadow(0 15px 17px rgba(38, 38, 143, 0.37));
+}
+.info {
+  display: block;
+  margin-bottom: 15px;
+}
+.info h5 a {
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+  color: #12114a;
+  font-weight: 500;
+}
+
+.info:hover h5 a {
+  color: #4b1ece;
+}
+.info span {
+  display: block;
+  font-size: 15px;
+  line-height: 25px;
+  color: #f20487;
+  font-weight: 500;
+}
+
+.floattext {
+  right: -290px;
+  color: #ffffff;
+  font-size: 150px;
+  position: absolute;
+  color: #12114a;
+  font-weight: 900;
+  opacity: 0.03;
+  top: 2500px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1000px) {
+  .innercolumn {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .floattext {
+    visibility: hidden;
+  }
+}

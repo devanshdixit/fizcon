@@ -1,0 +1,153 @@
+.speakers {
+  position: relative;
+  padding: 140px 0;
+  overflow: hidden;
+  overflow: -moz-hidden-unscrollable;
+}
+.floattext {
+  right: -20px;
+  top: 65px;
+  position: absolute;
+  font-size: 200px;
+  line-height: 1em;
+  color: #12114a;
+  font-weight: 900;
+  opacity: 0.03;
+  text-transform: uppercase;
+}
+.autocontainer {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.sectitle {
+  position: relative;
+  margin-bottom: 60px;
+}
+.sectitle h2 {
+  font-size: 40px;
+  line-height: 1.2em;
+  color: #12114a;
+  font-weight: 700;
+}
+.tabbtn2 {
+  position: absolute;
+  right: 200px;
+  top: 300px;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 15px 27px rgb(38 38 143 / 37%);
+  transition: all 300ms ease;
+}
+.tabbtn1 {
+  position: absolute;
+  right: 700px;
+  top: 260px;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 15px 27px rgb(38 38 143 / 37%);
+  transition: all 300ms ease;
+}
+.tabbtn3 {
+  position: absolute;
+  right: 450px;
+  top: 400px;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 15px 27px rgb(38 38 143 / 37%);
+  transition: all 300ms ease;
+}
+.tabbtn4 {
+  position: absolute;
+  right: 700px;
+  top: 600px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 15px 27px rgb(38 38 143 / 37%);
+  transition: all 300ms ease;
+}
+.tabbtn5 {
+  position: absolute;
+  right: 250px;
+  top: 600px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 15px 27px rgb(38 38 143 / 37%);
+  transition: all 300ms ease;
+}
+.tabbtn6 {
+  position: absolute;
+  right: 450px;
+  top: 700px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 99;
+  box-shadow: 0 15px 27px rgb(38 38 143 / 37%);
+  transition: all 300ms ease;
+}
+.tabscontent:before {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  height: 642px;
+  width: 621px;
+  background-image: url(../public/images/section7/speaker-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+.infobox {
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+.infobox h3 {
+  display: block;
+  font-size: 30px;
+  line-height: 1em;
+  color: #110437;
+  font-weight: 700;
+}
+.infobox span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #f20487;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .tabscontent:before {
+        background-image: none;
+    }
+}

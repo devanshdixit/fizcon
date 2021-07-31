@@ -1,0 +1,145 @@
+.footercontainermain:before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../public/images/footer/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  content: "";
+}
+.footercontainermain {
+  background-color: #12114a;
+  padding: 140px 0 40px;
+  position: relative;
+}
+.autocontainer {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.sectitle {
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+.title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.sectitle h2 {
+  line-height: 1.2em;
+  font-weight: 700;
+}
+.newsletterform {
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+.formgroup {
+  padding-right: 60px;
+}
+.formgroup input[type="text"],
+.formgroup input[type="email"] {
+  display: block;
+  height: 100px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+  color: #818a94;
+  background: #ffffff;
+  padding: 35px 40px;
+  font-weight: 400;
+  border-radius: 10px;
+  box-shadow: 0 8px 38px rgb(72 69 224 / 12%);
+  transition: all 300ms ease;
+}
+
+.btnthree {
+  position: absolute;
+  right: 360px;
+  top: 260px;
+  padding: 15px 65px;
+  line-height: 26px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  background-color: #f20487;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.sociallinks {
+  margin-bottom: 40px;
+}
+.sociallinks ul {
+  position: relative;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.sociallinks ul li {
+  position: relative;
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+  margin: 0 15px;
+}
+.sociallinks ul li a {
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.sociallinks ul li a:hover {
+  opacity: 0.3;
+}
+.footernav {
+  position: relative;
+  text-align: center;
+}
+.footernav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.footernav ul li {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px 10px;
+}
+.footernav ul li a {
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fefefe;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.footernav ul li a:hover {
+  color: #f20487;
+}
+.copyright {
+  position: relative;
+  display: block;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .btnthree {
+    position: absolute;
+    top: 340px;
+    right: 100px;
+  }
+}
