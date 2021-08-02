@@ -1,0 +1,164 @@
+.headerupper {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  transition: all 300ms ease;
+}
+
+.outercontainer {
+  max-width: 1560px;
+  padding: 0px 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logobox {
+  position: relative;
+  float: left;
+  left: 0px;
+  z-index: 10;
+  margin-right: 75px;
+  padding: 25px 0px;
+  transition: all 600ms ease;
+}
+.logo a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f20487;
+}
+.navouter {
+  position: static;
+  float: left;
+  margin-top: 12px;
+  transition: all 600ms ease;
+}
+
+.navbartoggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navul {
+  list-style: none;
+  position: static;
+  margin: 0px;
+  display: flex !important;
+  flex-basis: auto;
+  padding: 0px;
+}
+
+.navul li {
+  position: relative;
+  float: left;
+  margin-right: 55px;
+  padding: 20px 0;
+  transition: all 300ms ease;
+}
+
+.navul li a {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 0;
+  opacity: 1;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+.navul li ul {
+  display: block !important;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  top: 110%;
+  width: 200px;
+  padding: 0px 0px;
+  z-index: 100;
+  background: rgba(47, 46, 50, 0.9);
+  transition: all 200ms linear;
+  box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 5%), -2px 0px 5px 1px rgb(0 0 0 / 5%);
+}
+
+.navul li ul li {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navul li ul li a {
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: left;
+  text-transform: capitalize;
+  border-left: 4px solid transparent;
+  transition: all 500ms ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navul li ul li:hover {
+  border-left: 4px solid #f20487;
+  background: #222222;
+}
+.navul li:hover ul {
+  transition: all 300ms linear;
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+
+.btnbox {
+  position: relative;
+  float: left;
+  padding: 20px 0;
+}
+.btnbox a {
+  position: relative;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 15px 40px 15px;
+  background-color: #f20487;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btnbox a:hover {
+  color: #f20487;
+  background-color: white;
+  transition: all 300ms linear; 
+}
+@media (min-width: 768px) {
+  .navbarexpandmd {
+    display: block;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .navbarexpandmd {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .main-menu .navigation > li {
+    margin-right: 45px;
+  }
+}

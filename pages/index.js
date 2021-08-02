@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import Section1 from "../components/section1";
 import Section10 from "../components/section10";
 import Section2 from "../components/section2";
@@ -20,6 +21,7 @@ export default function Home() {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+      <Navbar/>
       <Section1 />
       <Section2 />
       <Section3 />

@@ -29,7 +29,7 @@ export default function Section8() {
                 <div className="speaker-tabs tabs-box">
                     <div className="row">
                         <div className="thumb-column col-lg-6 col-md-12 col-sm-12 order-2">
-                            {width >1000 ? 
+                            {width <1000 ?  "":
                             <ul className="tab-buttons clearfix">
                                 <li className={styles.tabbtn1} data-tab="#speaker-1" onClick={() => { setbtn1(true); setbtn2(false); setbtn3(false); setbtn4(false); setbtn5(false); setbtn6(false); }}><div className="thumb"><img src="images/section7/speaker-thumb-1.png" alt="" /></div></li>
                                 <li className={styles.tabbtn2} data-tab="#speaker-2" onClick={() => { setbtn1(false); setbtn2(true); setbtn3(false); setbtn4(false); setbtn5(false); setbtn6(false); }}><div className="thumb"><img src="images/section7/speaker-thumb-2.png" alt="" /></div></li>
@@ -37,7 +37,7 @@ export default function Section8() {
                                 <li className={styles.tabbtn4} data-tab="#speaker-4" onClick={() => { setbtn1(false); setbtn2(false); setbtn3(false); setbtn4(true); setbtn5(false); setbtn6(false); }}><div className="thumb"><img src="images/section7/speaker-thumb-4.png" alt="" /></div></li>
                                 <li className={styles.tabbtn5} data-tab="#speaker-5" onClick={() => { setbtn1(false); setbtn2(false); setbtn3(false); setbtn4(false); setbtn5(true); setbtn6(false); }}><div className="thumb"><img src="images/section7/speaker-thumb-5.png" alt="" /></div></li>
                                 <li className={styles.tabbtn6} data-tab="#speaker-6" onClick={() => { setbtn1(false); setbtn2(false); setbtn3(false); setbtn4(false); setbtn5(false); setbtn6(true); }}><div className="thumb"><img src="images/section7/speaker-thumb-6.png" alt="" /></div></li>
-                            </ul> : ""}
+                            </ul> }
                         </div>
                         <div className="content-column col-lg-6 col-md-12 col-sm-12" style={{ position: "relative" }}>
 

@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className={styles.newsletterform}>
                         <form method="post" action="blog.html">
                             <div className={styles.formgroup}>
-                                <input type="email" name="field-name" value="" placeholder="email@gmail.com" required="" />
+                                <input type="email" name="field-name"  placeholder="email@gmail.com" required="" />
                                 <button type="submit" className={styles.btnthree}>Send</button>
                             </div>
                         </form>
